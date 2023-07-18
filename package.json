@@ -1,0 +1,30 @@
+{
+  "name": "engineering_configuration",
+  "version": "1.0.0",
+  "description": "practice",
+  "main": "index.js",
+  "types": "dist/types/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "npm run clean && tsc",
+    "clean": "rimraf dist"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alebien/engineering_configuration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alebien/engineering_configuration/issues"
+  },
+  "homepage": "https://github.com/alebien/engineering_configuration#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
